@@ -216,14 +216,14 @@ body{
         text-decoration: none;
         color: rgb(49, 43, 43);
         display:block;
-        padding: 10px;
+        padding: 10px 0px 10px 10px;
         width: 100%;
     
     }
     #menuc nav ul li a:hover{
         background-color: yellowgreen;
         width: 100%;
-        text-align: center;
+        
         border-radius: 20px;
     }
     #box{
@@ -501,14 +501,14 @@ body{
         text-decoration: none;
         color: rgb(49, 43, 43);
         display:block;
-        padding: 10px;
+        padding: 10px 0px 10px 10px;
         width: 100%;
     
     }
     #menuc nav ul li a:hover{
         background-color: yellowgreen;
         width: 100%;
-        text-align: center;
+        
         border-radius: 20px;
     }
     #box{
@@ -519,7 +519,7 @@ body{
         left:0%;
         right:0%;
         height: 500px;
-        background-color: red;
+        background-blend-mode: exclusion;
         margin-left:-20px;
        
     }
@@ -529,13 +529,15 @@ body{
         top: 10px;
         left:0%;
         right:0%;
+        
     
         margin-top: 10px;
+        margin-bottom: 10px;
         
         
         padding-left: 20px;
         border-radius: 20px;
-        background-color: blue;
+        background-color: white;
         padding-top: 20px;
         padding-bottom: 20px;
     }
@@ -546,8 +548,8 @@ body{
     
     }
     #min {
-        /*background-blend-mode: exclusion;*/
-        background-color: blueviolet;
+        background-blend-mode: exclusion;
+        
         width:100%;
         
     }
@@ -584,9 +586,15 @@ body{
         
     }
     .feedback{
-        width: 100%;
-        height: 200px;
+        width: 80%;
+        height: 20px;
+        border-radius: 20px;
         
+    }
+    #comentario{
+        width:80%;
+        height: 40px;
+        border-radius:20px;
     }
     
 
