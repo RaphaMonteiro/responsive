@@ -41,5 +41,5 @@ if (f==6){
 
 
 
-window.alert(nome_completo + br + curso + br + h + br + buenos + feira)
+window.alert(nome_completo + br + curso+ br + buenos + feira)
 
