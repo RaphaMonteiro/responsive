@@ -234,7 +234,7 @@ body{
         left:0%;
         right:0%;
         height: 500px;
-        background-color: red;
+        background-blend-mode: exclusion;
         margin-left:-20px;
        
     }
@@ -244,13 +244,16 @@ body{
         top: 10px;
         left:20%;
         right:20%;
+        bottom: -;
+        
     
         margin-top: 10px;
+        margin-bottom: 10px;
         
         
         padding-left: 20px;
         border-radius: 20px;
-        background-color: blue;
+        background-color: white;
         padding-top: 20px;
         padding-bottom: 20px;
     }
@@ -262,7 +265,7 @@ body{
     }
     #min {
         /*background-blend-mode: exclusion;*/
-        background-color: blueviolet;
+       
         
     }
     #tbody{
@@ -298,9 +301,15 @@ body{
         
     }
     .feedback{
-        width: 70%;
-        height: 2em;
+        width: 80%;
+        height: 20px;
+        border-radius: 20px;
         
+    }
+    #comentario{
+        width:80%;
+        height: 40px;
+        border-radius:20px;
     }
 }
 
